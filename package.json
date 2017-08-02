@@ -1,0 +1,28 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "Platzigram Realtime Backend.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesdelacruz/platzigram-ws.git"
+  },
+  "author": "Moises De La Cruz <moisesdelacruz.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moisesdelacruz/platzigram-ws/issues"
+  },
+  "homepage": "https://github.com/moisesdelacruz/platzigram-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.0.3"
+  }
+}
